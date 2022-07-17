@@ -34,11 +34,11 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--ternary-bacground);
+    color: var(--quaternary-text-color);
 }
 
 .logo-heater{
-    color: var(--quaternary-bacground);
+    color: var(--primary-text-color);
 }
 
 .menu-link {
