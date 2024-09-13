@@ -50,10 +50,20 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
 }
 
 .menu-link.current {
   color: var(--quaternary-text-color);
+}
+
+.contact {
+  font-style: normal;
 }
 
 .contact-list {
@@ -61,7 +71,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  font-style: normal;
 }
 
 .contact-list:hover,
@@ -84,7 +93,6 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--ternary-text-color);
 }
 
@@ -92,14 +100,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--ternary-text-color);
-  background-color: var(--ternary-bacground);
+  background-color: var(--ternary-background);
   cursor: pointer;
-  border-style: none;
 }
 
 .modal-btn:hover,
@@ -108,9 +112,6 @@ body {
 }
 /*  ================= /HERO  ================= */
 /*  ================= ABOUT  ================= */
-.about-title {
-  display: none;
-}
 
 .about-title-item {
   font-weight: 500;
@@ -137,7 +138,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
@@ -150,13 +150,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-align: center;
 }
 
 .team-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -182,7 +180,7 @@ body {
 
 /*  ================= FOOTER  ================= */
 .footer {
-  background: var(--secondary-background);
+  background-color: var(--secondary-background);
 }
 
 .logo-footer {
@@ -196,7 +194,7 @@ body {
   list-style: none;
   text-decoration: none;
   color: var(--fifth-text-color);
-  background: var(--secondary-background);
+  background-color: var(--secondary-background);
 }
 /*  ================= /FOOTER  ================= */
 /* /BODY */
