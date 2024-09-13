@@ -9,7 +9,6 @@
   --primary-background: #ffffff;
   --secondary-background: #2e2f42;
   --ternary-background: #4d5ae5;
-  --quaternary-bacground: #000000;
 }
 
 .list {
@@ -131,7 +130,7 @@ body {
 /*  ================= /ABOUT  =================*/
 /* ================= TEAM  ================= */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--primary-background);
 }
 
 .section-title {
@@ -141,7 +140,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-  background-color: var(--primary-background);
 }
 
 .team-name {
